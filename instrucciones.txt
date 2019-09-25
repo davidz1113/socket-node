@@ -1,0 +1,9 @@
+--instalar socket desde npm
+npm i socket.io --save
+--link en heroku de produccion.
+https://sockets-1-andrew.herokuapp.com/
+--No olvidarse de poner el comando 
+"start": "node server/server.js"
+en el package.json
+-- para ver los logs de heroku
+heroku logs --tail
